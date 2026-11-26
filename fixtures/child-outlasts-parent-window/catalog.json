@@ -1,0 +1,16 @@
+{
+  "case": "child-outlasts-parent-window",
+  "files": {
+    "main": {
+      "sql": "main.sql",
+      "tables": {
+        "orgs": 4,
+        "relations": 3,
+        "qualifications": 2,
+        "permits": 0
+      }
+    }
+  },
+  "event_count": 3,
+  "limits": {}
+}

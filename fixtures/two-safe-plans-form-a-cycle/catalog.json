@@ -1,0 +1,16 @@
+{
+  "case": "two-safe-plans-form-a-cycle",
+  "files": {
+    "main": {
+      "sql": "main.sql",
+      "tables": {
+        "orgs": 5,
+        "relations": 4,
+        "qualifications": 3,
+        "permits": 2
+      }
+    }
+  },
+  "event_count": 11,
+  "limits": {}
+}

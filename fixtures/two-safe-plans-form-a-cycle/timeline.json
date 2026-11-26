@@ -1,0 +1,112 @@
+[
+  {
+    "at": 27,
+    "action": "plan_open",
+    "args": [
+      "A",
+      [
+        [
+          "old",
+          "new",
+          31,
+          55
+        ],
+        [
+          "branch",
+          "new",
+          31,
+          55
+        ]
+      ]
+    ]
+  },
+  {
+    "at": 27,
+    "action": "plan_open",
+    "args": [
+      "B",
+      [
+        [
+          "new",
+          "old",
+          31,
+          55
+        ]
+      ]
+    ]
+  },
+  {
+    "at": 28,
+    "action": "plan_submit",
+    "args": [
+      "A"
+    ]
+  },
+  {
+    "at": 28,
+    "action": "commit_response",
+    "args": [
+      "A"
+    ]
+  },
+  {
+    "at": 28,
+    "action": "plan_submit",
+    "args": [
+      "B"
+    ]
+  },
+  {
+    "at": 29,
+    "action": "path",
+    "args": [
+      "desk",
+      30
+    ]
+  },
+  {
+    "at": 30,
+    "action": "new_permit",
+    "args": [
+      "P3",
+      "desk",
+      "assist",
+      35
+    ]
+  },
+  {
+    "at": 31,
+    "action": "continue_permit",
+    "args": [
+      "P1",
+      37
+    ]
+  },
+  {
+    "at": 32,
+    "action": "continue_permit",
+    "args": [
+      "P2",
+      37
+    ]
+  },
+  {
+    "at": 33,
+    "action": "withdraw",
+    "args": [
+      [
+        "A",
+        38,
+        55
+      ]
+    ]
+  },
+  {
+    "at": 34,
+    "action": "path",
+    "args": [
+      "desk",
+      42
+    ]
+  }
+]

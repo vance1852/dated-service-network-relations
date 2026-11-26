@@ -1,0 +1,32 @@
+[
+  {
+    "at": 20,
+    "action": "plan_open",
+    "args": [
+      "move",
+      [
+        [
+          "x",
+          "b",
+          30,
+          50
+        ]
+      ]
+    ]
+  },
+  {
+    "at": 21,
+    "action": "plan_submit",
+    "args": [
+      "move"
+    ]
+  },
+  {
+    "at": 22,
+    "action": "path",
+    "args": [
+      "x",
+      41
+    ]
+  }
+]

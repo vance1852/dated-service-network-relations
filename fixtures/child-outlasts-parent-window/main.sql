@@ -1,0 +1,15 @@
+BEGIN TRANSACTION;
+CREATE TABLE "orgs" (org TEXT PRIMARY KEY, root INTEGER, active_from INTEGER, active_until INTEGER);
+INSERT INTO "orgs" VALUES('r',1,0,90);
+INSERT INTO "orgs" VALUES('a',0,0,90);
+INSERT INTO "orgs" VALUES('b',0,0,40);
+INSERT INTO "orgs" VALUES('x',0,0,90);
+CREATE TABLE "permits" (id TEXT PRIMARY KEY, accepted_by TEXT, subject TEXT, service TEXT, started INTEGER, expires INTEGER, preserve TEXT);
+CREATE TABLE "qualifications" (org TEXT, service TEXT, since INTEGER, until INTEGER);
+INSERT INTO "qualifications" VALUES('a','assist',0,90);
+INSERT INTO "qualifications" VALUES('b','assist',0,40);
+CREATE TABLE "relations" (child TEXT, parent TEXT, since INTEGER, until INTEGER);
+INSERT INTO "relations" VALUES('a','r',0,90);
+INSERT INTO "relations" VALUES('b','r',0,40);
+INSERT INTO "relations" VALUES('x','a',0,90);
+COMMIT;
